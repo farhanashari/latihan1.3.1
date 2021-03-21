@@ -1,0 +1,28 @@
+package mobil;
+
+/**
+ *
+ * @author Farhan ashari
+ */
+public class mobil1 {
+    String warna;
+    int tahunproduksi;
+}
+====================================================================================
+package mobil;
+
+/**
+ *
+ * @author Farhan ashari
+ */
+public class mobilberaksi {
+    public static void main(String[] args) {
+        mobil1 mobilAshari = new mobil1();
+        
+        mobilAshari.warna = "pink";
+        mobilAshari.tahunproduksi = 2002;
+        
+        System.out.println("warna: " + mobilAshari.warna);
+        System.out.println("tahun produksi: " + mobilAshari.tahunproduksi);
+    }
+}
