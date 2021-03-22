@@ -1,0 +1,37 @@
+pacpackage Mahasiswa;
+
+/**
+ *
+ * @author Farhan ashari
+ */
+public class Mahasiswa {
+    String membaca;
+    int nyontek;
+    String modifikasi;
+    
+    public void Mahasiswa(){
+        System.out.println("cara membaca" + membaca + "dengan tajwid");
+                           
+        System.out.println("sekitar" + nyontek + "cara mencontek yang benar");
+        System.out.println("cara modifikasi contekan " + modifikasi);
+    }
+}
+package Mahasiswa;
+
+/**
+ *
+ * @author Farhan ashari
+ */
+public class Mahasiswaberaksi {
+    public static void main(String[] args) {
+        Mahasiswa mahasiswauin = new Mahasiswa();
+        
+                  mahasiswauin.membaca = "al-quran";
+                  mahasiswauin.nyontek = 65;
+                  mahasiswauin.modifikasi = "ada beberapa cara semisal mengacak kata";
+                  mahasiswauin.Mahasiswa();
+                  
+                  
+                  
+        }
+    }
