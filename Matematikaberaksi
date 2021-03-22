@@ -1,0 +1,36 @@
+.package Parameter;
+
+/**
+ *
+ * @author Farhan ashari
+ */
+public class Matematika {
+    void pertambahan(int a, int b){
+        System.out.println("hasil = " + (a+b));
+        
+    }
+    void pengurangan(int a, int b){
+        System.out.println("hasil = " + (a-b));
+    }
+    void perkalian (int a, double b){
+        System.out.println("hasil = " + (a*b));
+    }
+    void pembagian (float a, float b){
+        System.out.println("hasil = " + (a/b));
+    }
+package Parameter;
+
+/**
+ *
+ * @author Farhan ashari
+ */
+public class Matematikaberaksi {
+    public static void main(String[] args) {
+        Matematika matematikaasik = new Matematika();
+        
+        matematikaasik.pertambahan(15,10);
+        matematikaasik.pengurangan(25,5);
+        matematikaasik.perkalian(5,8);
+        matematikaasik.pembagian(50,2);
+    }
+}
