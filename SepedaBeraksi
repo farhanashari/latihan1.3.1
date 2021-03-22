@@ -1,0 +1,39 @@
+package SepedaAshari;
+
+/**
+ *
+ * @author Farhan ashari
+ */
+public class Sepeda {
+    int gir;
+    
+    void setGir(int penguranganGir){
+        gir=gir- penguranganGir;
+    }
+    
+    int getGir(){
+        return gir;
+    }
+}
+package SepedaAshari;
+
+/**
+ *
+ * @author Farhan ashari
+ */
+public class SepedaBeraksi {
+    public static void main(String[] args) {
+        Sepeda sepedaashari = new Sepeda()
+            
+            
+            sepedaashari.setGir(1);
+            /*Variabel bisa diubah atau tidak sengaja diubah.
+              Hal ini berbahaya dan sering menimbulkan bug.
+              Berikan acces modifier private pada instance variable
+            
+         */
+            sepedaashari.gir = 5-2;
+            System.out.println("Gir saat ini:" + sepedaashari.getGir());
+            
+        }
+    }
